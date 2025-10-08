@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background-color: #f55a5a;
+    height: 55px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
