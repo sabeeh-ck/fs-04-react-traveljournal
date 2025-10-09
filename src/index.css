@@ -14,10 +14,57 @@ body {
 
 header {
     background-color: #f55a5a;
-    height: 55px;
+    height: 3.5rem;
     display: flex;
     gap: 1rem;
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+article {
+    padding: 2.75rem 2.5rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+article > img {
+    width: 8rem;
+    height: 10.5rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    font-size: 0.6rem;
+}
+
+.location > span {
+    margin-left: 0.25rem;
+    letter-spacing: 0.1rem;
+}
+
+.location > a {
+    margin-left: 1rem;
+    color: #918e9b;
+}
+
+.details > h1 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.details > .date {
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.details > p {
+    margin-top: 0.5rem;
+    font-size: 0.6rem;
+    line-height: 150%;
 }
