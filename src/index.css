@@ -22,8 +22,14 @@ header {
     color: white;
 }
 
+main {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+}
+
 article {
-    padding: 2.75rem 2.5rem;
     display: flex;
     gap: 1.5rem;
     align-items: center;
@@ -48,7 +54,7 @@ article > img {
 }
 
 .location > a {
-    margin-left: 1rem;
+    margin-left: 0.75rem;
     color: #918e9b;
 }
 
