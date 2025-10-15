@@ -3,18 +3,7 @@ import Entry from "./components/Entry";
 import data from "./data";
 
 export default function App() {
-    const entryElements = data.map((entry) => (
-        <Entry
-            key={entry.id}
-            entry={entry} /* 
-            img={entry.img}
-            title={entry.title}
-            country={entry.country.toUpperCase()}
-            googleMapsLink={entry.googleMapsLink}
-            dates={entry.dates}
-            text={entry.text} */
-        />
-    ));
+    const entryElements = data.map((entry) => <Entry key={entry.id} {...entry} />);
 
     return (
         <>
